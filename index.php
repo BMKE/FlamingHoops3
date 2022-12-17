@@ -1,0 +1,234 @@
+<?php ?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<?php include('./templates/header.php'); ?>
+
+<main>
+  <!-- Masthead START-->
+  <section id="home">
+    <div class="container-xxl masthead">
+      <div class="container align-items-center masthead-text">
+        <p class="display-3 fw-bold text-danger">Flaming Hoops</p>
+        <p class="display-6 text-light mb-5">
+          Northern Beaches Basketball Coaching
+        </p>
+        <button type="button" class="btn btn-lg btn-outline-light">
+          Contact Us
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- Masthead END-->
+</main>
+<!-- Services START-->
+<section id="services">
+  <div class="container-xxl bg-light p-5">
+    <p class="display-4 text-dark text-center mb-2">Coaching Services</p>
+    <p class="fs-3 fw-light text-center mb-5 text-muted">
+      Team, Individual, Experienced or Beginner
+    </p>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card h-100 text-center">
+          <div class="card-body">
+            <h5 class="card-header text-light bg-dark mb-2">
+              Individual Skills
+            </h5>
+            <p class="card-text">
+              1 on 1 sessions that are tailored to each players' goals and
+              areas of focus. Recommended to improve specific areas of your
+              game.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Sessions from $90 hr</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 text-center">
+          <div class="card-body">
+            <h5 class="card-header text-light bg-dark mb-2">
+              Group Training
+            </h5>
+            <p class="card-text">
+              Small group sessions that work on players skills, ball
+              handling, shotting and small sided games. A great option to
+              build skills with a competitive edge.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">$30 pp/hr (minimum 3)</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 text-center">
+          <div class="card-body">
+            <h5 class="card-header text-light bg-secondary mb-2">
+              Team Sessions
+            </h5>
+            <p class="card-text">
+              Team sessions that focus on how to run an offence, different
+              types of defensive structure, developing tactics and creating
+              a positive team dynamic.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Call to discuss</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 text-center">
+          <div class="card-body">
+            <h5 class="card-header text-light bg-secondary mb-2">Camps</h5>
+            <p class="card-text">
+              We run regular holiday and specialist camps for youngsters and teams.
+              These are flexible, longer sessions that are a fun way to build
+              teams and see improvements fast.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Call to discuss</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Services END-->
+
+<!-- About START-->
+<section id="about" class="">
+  <div class="container-xxl bg-dark text-light p-5">
+    <p class="display-4 text-light text-center mb-2">
+      <img src="./images/flamimghoops-300x300.png" alt="" height="50" class="align-middle mb-2 me-2" />
+      About Us
+    </p>
+    <p class="fs-3 fw-light text-center mb-5 text-muted">
+      Professional, Passionate and Committed
+    </p>
+    <div class="row gx-5">
+      <div class="col-lg-5 col-md-6 col-sm-7 col-10 pb-3 pt-5 px-4 mx-auto">
+
+        <figure class="figure">
+          <img src="./images/khai-1.jpg" class="figure-img img-fluid rounded-3" alt="...">
+          <figcaption class="figure-caption">Khai, Head Coach - Flaming Hoops.</figcaption>
+        </figure>
+
+      </div>
+      <div class="col-lg bg-dark d-flex align-items-center px-5">
+        <p class="fs-5">Flaming Hoops basketball coaching specializes in individual training, small group sessions, team training/games and holidays camps.
+          We cater for all ages and abilities whether the player is striving to make a representative or school team or develop their skills and teamwork.
+          <br><br>
+          We focus on character and skill development, learning the fundamentals of the game as well as creating an enjoyable and supportive environment for all our players.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- About END -->
+
+
+<!-- Gallery Start -->
+<section id="gallery" class="">
+  <div class="container-xxl bg-light p-5">
+    <p class="display-4 text-dark text-center mb-2">You!</p>
+    <p class="fs-3 fw-light text-center mb-5 text-muted">
+      Thank you for being part of the flamming hoops community <span class="me-1 text-danger"><i class="bi bi-suit-heart-fill"></i></span>
+    </p>
+    <div class="row justify-content-center">
+
+      <div class="col-lg-8">
+        <div id="carouselFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/gallery/bb-stock-2.jpeg" class="d-block w-100 rounded-2" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/gallery/bb-stock-3.jpeg" class="d-block w-100 rounded-2" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/gallery/bb-stock-4.jpeg" class="d-block w-100 rounded-2" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- Gallery END -->
+
+<!-- Contact START-->
+
+<section id="contact" class="">
+  <div class="container-xxl bg-secondary py-5">
+    <p class="display-4 text-light text-center mb-2">Contact</p>
+    <p class="fs-3 fw-light text-center mb-5 text-dark">
+      Get in touch to discuss your basketball needs
+    </p>
+    <div class="row justify-content-center">
+      <div class="col-md-10 col-lg-8">
+        <p class="fs-5 text-light">Enter details below</p>
+        <form class="mb-5" method="post" id="contactForm" name="contactForm" novalidate="novalidate">
+          <div class="row">
+            <div class="mb-3">
+              <input type="text" class="form-control" name="contactName" id="contactName" placeholder="Your Name">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <input type="email" class="form-control" name="contactEmail" id="contactEmail" placeholder="e-mail address">
+            </div>
+            <div class="col-md-6 mb-3">
+              <input type="tel" class="form-control" name="contactPhone" id="contactPhone" placeholder="Phone Number">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 mb-3">
+              <textarea class="form-control" name="contactMessage" id="contactMessage" cols="30" rows="7" placeholder="Write your message"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col text-center">
+              <input type="submit" value="Send Message" class="btn btn-lg btn-outline-light mt-3">
+            </div>
+          </div>
+        </form>
+        <div class="py-3 text-muted text-center bg-dark rounded">
+          <p class="text-light display-6 bm-4">Directly</p>
+          <p><i class="text-danger bi bi-envelope-at"></i><span class="text-muted fs-5">&nbsp&nbsp&nbsp&nbspinfo@flaminghoops.com.au</span><br>
+            <span><i class="text-danger bi bi-telephone"></i><span class="text-muted fs-5">&nbsp&nbsp&nbsp&nbsp030430 e34e34343</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Contact END -->
+
+<!-- Testimonials Start -->
+<section id="reviews" class="">
+  <div class="container-xxl">Reviews</div>
+</section>
+<!-- Testimonials END -->
+
+<?php include('templates/footer.php'); ?>
+
+</html>

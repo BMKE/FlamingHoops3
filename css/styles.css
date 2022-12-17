@@ -1,0 +1,26 @@
+/* Masthead */
+.masthead-text {
+  /* background-color: beige; */
+  position:relative;
+  top: 30%;
+}
+
+.masthead {
+  width: 100%; 
+  position: relative; 
+  height: 80vh;
+  background-size: cover;  
+  background-image: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0)), url("../images/mast-wide.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+}
+
+/* Carousel */
+#carouselFade .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  height: 50vh;
+}
+
